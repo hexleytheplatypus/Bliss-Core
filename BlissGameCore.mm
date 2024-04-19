@@ -27,7 +27,6 @@
 #import "BlissGameCore.h"
 #import <IOKit/hid/IOHIDLib.h>
 #import <OpenEmuBase/OERingBuffer.h>
-#import <OpenGL/gl.h>
 #import "OEIntellivisionSystemResponderClient.h"
 
 #import "core/Emulator.h"
@@ -481,14 +480,14 @@ static uint8_t _keyboardShiftCount = 0;
     return _videoBuffer = (uint8_t*)hint;
 }
 
-- (GLenum)pixelFormat
+- (uint32_t)pixelFormat
 {
-    return GL_BGRA;
+    return OEPixelFormat_BGRA;
 }
 
-- (GLenum)pixelType
+- (uint32_t)pixelType
 {
-    return GL_UNSIGNED_INT_8_8_8_8_REV;
+    return OEPixelType_UNSIGNED_INT_8_8_8_8_REV;
 }
 
 - (NSTimeInterval)frameInterval
