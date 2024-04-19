@@ -72,7 +72,6 @@
 		275CEEF619D5195B00901DD8 /* Emulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 275CEEF119D5195B00901DD8 /* Emulator.cpp */; };
 		275CEEF719D5195B00901DD8 /* Peripheral.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 275CEEF319D5195B00901DD8 /* Peripheral.cpp */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
-		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		94BE9E7A171695AE00AB08E6 /* OEIntellivisionSystemResponderClient.h in Resources */ = {isa = PBXBuildFile; fileRef = 94BE9E79171695AE00AB08E6 /* OEIntellivisionSystemResponderClient.h */; };
 		C66DFC1A0F51D82F0080AA28 /* BlissGameCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = C66DFC180F51D82F0080AA28 /* BlissGameCore.mm */; };
 		C6D120E91711302600E868A8 /* OpenEmuBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D120E71711302600E868A8 /* OpenEmuBase.framework */; };
@@ -215,7 +214,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6D120E91711302600E868A8 /* OpenEmuBase.framework in Frameworks */,
-				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
 				1B46D09D14293CAD0025EF88 /* libz.1.2.5.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
